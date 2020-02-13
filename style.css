@@ -6,15 +6,30 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding-top: 20px;
+    background-color: rgb(98, 197, 159);
+}
+
+.wrapper {
     max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+footer{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 header,
 footer {
+    padding-top: 10px;
     font-family: 'Luminari', cursive;
     margin: 0;
-    padding: 0;
     background-color: blue;
     text-align: center;
     color: black;
@@ -22,6 +37,7 @@ footer {
 }
 
 h1{
+    
     border: 5px solid black;
     border-radius: 500px;
     width: 700px;
